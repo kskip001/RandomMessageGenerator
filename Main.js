@@ -4,7 +4,7 @@
 const plants = ['Anubias','Monte Carlo','HC Cuba','Pearlweed','S. Repens','Salvinia','Crypt Wendii','Crypt Pavelli','Buce - Wavy Green','Buce - Narrow Red'];
 
 //Setup random livestock
-const livestock = ['Neon Tetra','Chili Rasbora', 'Pea Puffer','Betta','Pygmy Cory','Cherry Shrimp','Nerite Snails'];
+const livestock = ['Neon Tetras','Chili Rasboras', 'Pea Puffers','Bettas','Pygmy Corys','Cherry Shrimp','Nerite Snails'];
 
 //Setup random hardscape
 const hardscape = ['Dragon Stone','Seiryu','Mopani Wood','Spider Wood','Iron Wood','Gravel','Sand','Terraced Rock'];
@@ -18,10 +18,11 @@ const layout = ['Concave','Big Triangle','Golden Ratio - Plant Feature','Golden 
 //Select all random components needed to build final string
 
 ranPlant = plants[Math.floor(Math.random()*plants.length)];
-console.log(ranPlant);
+ranPlant2 = plants[Math.floor(Math.random()*plants.length)];
+ranLivestock = livestock[Math.floor(Math.random()*livestock.length)];
+ranHardscape = hardscape[Math.floor(Math.random()*hardscape.length)];
+ranTheme = theme[Math.floor(Math.random()*theme.length)];
+ranLayout = layout[Math.floor(Math.random()*layout.length)];
 
-
-// ranLivestock = ;
-// ranHardscape = ;
-// ranTheme = ;
-// ranLayout = ;
+const randomAquascape = `Random Aquascape Layout: ${ranTheme} style tank with a ${ranLayout} layout using ${ranHardscape}, ${ranPlant}, ${ranPlant2}, and stocking it with ${ranLivestock}`;
+console.log(randomAquascape);
