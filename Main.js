@@ -15,3 +15,13 @@ const theme=['Jungle', 'Iwagumi', 'Dutch','Brazillian','Taiwanese', 'Biotope','W
 //Setup random layout
 const layout = ['Concave','Big Triangle','Golden Ratio - Plant Feature','Golden Ratio - Hardscape Feature','Golden Ratio - Empty Space','Convex','Sloped'];
 
+//Select all random components needed to build final string
+
+ranPlant = plants[Math.floor(Math.random()*plants.length)];
+console.log(ranPlant);
+
+
+// ranLivestock = ;
+// ranHardscape = ;
+// ranTheme = ;
+// ranLayout = ;
