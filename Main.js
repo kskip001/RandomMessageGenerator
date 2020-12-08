@@ -26,4 +26,4 @@ ranLayout = layout[Math.floor(Math.random()*layout.length)];
 
 const randomAquascape = `Random Aquascape Layout: ${ranTheme} style tank with a ${ranLayout} layout using ${ranHardscape}, ${ranPlant}, ${ranPlant2}, and stocking it with ${ranLivestock}`;
 console.log(randomAquascape);
-document.getElementById('randomAquascape').innerHTML = randomAquascape;
+document.getElementById("randomAquascape").innerHTML = randomAquascape;
